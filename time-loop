@@ -1,0 +1,14 @@
+using System;
+
+namespace TimeLoop 
+{
+    static void Main(string[] args) 
+    {
+        int N = int.Parse(Console.Readline());
+        
+        for (int i = 0; i < N; i++)
+        {
+        Console.WriteLine ((i + 1) + "Abracadabra");
+    }
+}
+}
